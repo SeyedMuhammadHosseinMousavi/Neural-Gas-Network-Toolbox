@@ -1,5 +1,5 @@
 # Neural-Gas-Network-Toolbox
-Neural Gas Network (NGN) Toolbox - NGN Feature Selection - Supervised NGN (NGN Classifier) - NGN Data Augmentor 
+Neural Gas Network (NGN) Toolbox - NGN Feature Selector - Supervised NGN (NGN Classifier) - NGN Data Augmentor - NGN Image Segmentor - NGN Topology Fitter
 
 The Neural Gas Network (NGN) is an artificial neural network algorithm introduced by Thomas Martinetz and Klaus Schulten in 1991, designed to perform vector quantization and clustering by adapting its structure to the data topology. Unlike the Self-Organizing Map (SOM), which imposes a predefined grid structure, the NGN flexibly arranges its neurons in the data space based on a competitive learning process. Each neuron (or unit) in the NGN moves towards input data points, with the amount of movement influenced by both the distance to the data point and the rank order of the neuron. This process minimizes a cost function related to the distances between the neurons and the data points, effectively capturing the underlying distribution and structure of the data. The NGN is particularly useful for tasks requiring unsupervised learning, such as clustering, vector quantization, and dimensionality reduction, and it can be adapted for supervised learning tasks or synthetic data generation by incorporating class labels and specific update rules.
 
